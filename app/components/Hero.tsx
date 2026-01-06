@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="flex flex-col px-6  gap-14 lg:gap-0 lg:flex-row lg:w-5/6 lg:flex-1">
+    <section className="flex flex-col px-6  gap-14 lg:gap-0 lg:flex-row lg:w-5/6 lg:flex-1 sm:px-8">
       <div className="flex flex-col gap-14 lg:gap-12 mt-18 lg:w-1/2">
         <div className="flex gap-2 max-w-fit py-2 px-4 rounded-full text-[#d4adf9] border">
           <Sparkles />
@@ -20,10 +20,10 @@ function Hero() {
           </h3>
         </div>
         <div className="flex flex-col sm:flex-row gap-6 text-2xl">
-          <button className="btn flex items-center w-full justify-center py-3 lg:w-fit lg:px-10">
+          <button className="btn flex items-center w-full justify-center py-3 lg:w-fit lg:px-10 btn-base  transition-transform duration-300 ease-in hover:scale-102 shadow-md hover:shadow-lg">
             Get Started <MoveUpRight height={15} />
           </button>
-          <button className="flex items-center w-full justify-center py-3 bg-[#fafafa] text-[#0a0a0a] rounded-lg lg:w-fit lg:px-10">
+          <button className="flex items-center w-full justify-center py-3 bg-[#fafafa] text-[#0a0a0a] rounded-lg lg:w-fit lg:px-10 btn-base transition-transform duration-300 ease-in hover:scale-102 shadow-md hover:shadow-lg">
             Demo
           </button>
         </div>

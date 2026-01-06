@@ -16,7 +16,11 @@ body {
     @apply bg-linear-to-r from-[#9121fa] to-[#3b58fb] rounded-lg;
   }
 
+  .btn-base {
+    @apply cursor-pointer;
+  }
+
   .graytext {
-    @apply text-[#afb9cc]
+    @apply text-[#afb9cc];
   }
 }

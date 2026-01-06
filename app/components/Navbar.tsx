@@ -3,9 +3,9 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="w-full bg-[#030a2b] lg:flex lg:justify-center">
-      <div className=" lg:w-5/6 h-16 flex items-center justify-between px-6 py-2">
-        <div className=" w-44">
+    <nav className="w-full bg-[#030a2b] lg:flex lg:justify-center ">
+      <div className=" lg:w-5/6 h-16 flex items-center justify-between px-6 py-2  sm:px-8">
+        <div>
           <Image
             src="/logoNav.png"
             alt="logo"

@@ -5,6 +5,12 @@ type Feature = {
   heading: string;
   paragraph: string;
 };
+
+type SubFeaturesList ={
+  id: number;
+  subFeature: string;
+}
+
 export const features: Feature[] = [
   {
     id: 1,
@@ -55,3 +61,30 @@ export const features: Feature[] = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Cupiditate,obcaecati nesciunt harum illum dolorum necessitatibus eaque ",
   },
 ];
+
+export const subFeaturesList:SubFeaturesList[] =[
+  {
+    id: 1,
+    subFeature:"Unlimited transaction Tracking"
+  },
+  {
+    id: 2,
+    subFeature:"Smart budget management"
+  },
+  {
+    id: 3,
+    subFeature:"Real-time analytics and insights"
+  },
+  {
+    id: 4,
+    subFeature:"Multi device sync"
+  },
+  {
+    id: 5,
+    subFeature:"Secure data encryption"
+  },
+  {
+    id: 6,
+    subFeature:"Export to CSV/PDF"
+  }
+]
